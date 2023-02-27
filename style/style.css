@@ -1,19 +1,28 @@
-body {
-    font-family: "Roboto", "Arial", sans-serif;
-  }
-.container{
-    max-width: 960px;
-    margin: 0 auto;
-  
+* {
+    box-sizing: border-box;
 }
-.header{
-    padding-top: 47px;
-    background-color:rgb(255, 255, 255);
-    padding-left: 240px;
-    padding-right: 240px;
-    padding-bottom: 47px;
+
+.left {
+    display: inline-block;
+    padding-top: 18px;
+    padding-bottom: 23px;
+
+
+}
+
+.right {
+    display: inline-block;
+    float: right;
+    padding: 0px 20px 0px 0px;
+    padding-top: 25px;
+    padding-bottom: 28px;
+}
+
+.logo {
+    padding: 30px 150px 0px 150px;
     
 }
+
 .header-nav{
     display: flex;
     justify-content: space-between;
@@ -168,6 +177,9 @@ padding-top: 1px;
     display: block;
     cursor: pointer;
    text-align: center;
+   display: flex;
+  align-items: center;
+  justify-content: center
 
 
 }
@@ -189,3 +201,4 @@ padding-top: 1px;
     background-color: #F2F2F2; 
     padding-bottom: 81px;
 }
+
